@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="SoothingBlue">#99cfd1</color>
+    <color name="SedationPink">#dcc4c1</color>
+    <color name="Grounding">#c9bfc1</color>
+    <color name="GentleYellow">#decb9b</color>
+    <color name="TranquilBlue">#c4c8b2</color>
+    <color name="SoothingGreen">#5ec35f</color>
+    <color name="OliveGreen">#4b7447</color>
+    <color name="Orange">#eb8a44</color>
+    <color name="Yellow">#f9dc24</color>
+    <color name="Lime">#8eba43</color>
+</resources>

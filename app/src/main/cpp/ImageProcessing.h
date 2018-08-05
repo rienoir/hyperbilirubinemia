@@ -1,0 +1,13 @@
+//
+// Created by kevin on 10/07/18.
+//
+
+#ifndef HYPERBILIRUBINEMIA_IMAGEPROCESSING_H
+#define HYPERBILIRUBINEMIA_IMAGEPROCESSING_H
+
+class PreProcessing{
+    Mat
+};
+
+
+#endif //HYPERBILIRUBINEMIA_IMAGEPROCESSING_H

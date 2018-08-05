@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hyperbilirubinemia</string>
+    <string name="action_settings">Settings</string>
+    <string name="detect_text">Start Detection</string>
+    <string name="instruct_text">Instruction</string>
+    <string name="info_text">Info</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_detection">DetectionActivity</string>
+    <string name="cant_read_file">Unable to read file</string>
+    <string name="channel_name">NotificationChannel</string>
+    <string name="channel_description">SHowing notification of background image processing</string>
+    <string name="title_activity_instruct">InstructActivity</string>
+</resources>

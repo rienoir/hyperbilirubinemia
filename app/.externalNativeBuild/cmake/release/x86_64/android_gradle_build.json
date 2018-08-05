@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "/home/kevin/Hyperbilirubinemia/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/kevin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/kevin/Hyperbilirubinemia/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_opencv-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "lib_opencv",
+			"buildType" : "release",
+			"output" : "/home/kevin/Hyperbilirubinemia/app/src/main/jniLibs/x86_64/libopencv_java3.so",
+			"toolchain" : "14118782232596554286"
+		},
+		"native-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/kevin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/kevin/Hyperbilirubinemia/app/.externalNativeBuild/cmake/release/x86_64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/home/kevin/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/kevin/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I/home/kevin/OpencvAndroid/sdk/native/jni/include -isystem /home/kevin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/kevin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/kevin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/kevin/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/kevin/Hyperbilirubinemia/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/kevin/Hyperbilirubinemia/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/home/kevin/Hyperbilirubinemia/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+			"toolchain" : "14118782232596554286"
+		}
+	},
+	"toolchains" : 
+	{
+		"14118782232596554286" : 
+		{
+			"cCompilerExecutable" : "/home/kevin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/kevin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
